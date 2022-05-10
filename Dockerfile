@@ -282,5 +282,6 @@ RUN set -ex \
 
 # Basic smoke test
 RUN node --version
+RUN npm --version
 
 USER circleci
